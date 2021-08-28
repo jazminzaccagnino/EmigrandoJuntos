@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <!--css-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Glory:wght@200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div>
+
+        <!--header-->
+        <header>
+            <a href="../Index.html"><img src="../multimedia/Logo.PNG" alt="logoemigrando" width="200" class="bordesredondeados"></a>
+            <h1 class="centradoColor">Te acompañamos en tu proceso migratorio</h1>
+            <audio src="../multimedia/perfect.mp3" autoplay preload="none" controls></audio>
+        </header><br><br>
+    
+        <nav class="menu-flex">
+            <div class="botonBordesredondeados"> <a href="../Index.html">Inicio</a></div>
+            <div class="botonBordesredondeados"> <a href="servicios.html">Servicios</a></div>
+            <div class="botonBordesredondeados"> <a href="nuestrosclientes.html">Nuestros Clientes</a></div>
+            <div class="botonBordesredondeados"> <a href="contactanos.html">Contactanos</a></div>     
+        </nav><br><br>
+
+        <!--formulario-->
+
+        <main class="centrado">
+            <form action="../php/contactanos.php" method="POST" class="centrado">
+                <fieldset>
+                    <label for="Nombre">Nombre</label>
+                    <input type="name"><br><br>
+                    <label for="E-mail">E-mail</label>
+                    <input type="E-mail"><br><br>
+                    <label for="Estado Civil">Estado Civil</label>
+                    <select name="Estado Civil">
+                    <option value="Soltero/a">Soltero/a</option>
+                    <option value="Casado/a">Casado/a</option>
+                    </select>
+                    <p>¿Desea recibir nuestras Newsletters?</p>
+                    <input type="radio" name="si" value="si"/><br><br>
+                    <label for="Comentarios">Comentarios</label><br>
+                    <textarea name="Comentarios" id="" cols="30" rows="10"></textarea><br>
+                    <input type="reset" value="Limpiar formulario"/>
+                    <input type="submit" value="Enviar este formulario" />
+                </fieldset>
+            </form>
+        </main>
+    
+    <!--pie-->
+    <footer>
+        <img src="../multimedia/Instagram.PNG" alt="logoinstagram" width="50" class="bordesredondeados">
+        <img src="../multimedia/whatsapp.PNG" alt="logowhatsapp" width="50" class="bordesredondeados">
+    </footer> 
+
+    
+</body>
+</html>
