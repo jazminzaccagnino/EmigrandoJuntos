@@ -1,103 +1,117 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Glory', sans-serif;
-}
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Glory', sans-serif; }
 
 /*.Body.*/
-body{
-    background-color: cadetblue;
-    text-align: center;
-} 
+body {
+  background-color: cadetblue;
+  text-align: center;
+  text-decoration-color: ivory; }
 
-/*.header.*/
-header {
-    text-align: center;
-}
+/*.bloque header.*/
+.header {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.header__logo {
+  border-radius: 10px; }
+
+.header__texto {
+  color: #a84521; }
+
 nav {
-    background-color: rgb(168, 69, 33);
-    height: 50px;
-}
-div{
-    height: 5px;
-    margin: 5px;
-    padding: 5px;
-}
-.boton{
-    width: 100px;
-    height: 30px;
-    background-color: ivory;
-    padding: 5px;
-    text-align: center;
-}
-.fondo{
-    background-color: rgb(168, 69, 33);
-    height: 100px;
-}
+  background-color: #a84521;
+  height: 50px;
+  margin-top: 100px;
+  margin-bottom: 50px; }
 
-.color{
-    color: rgb(168, 69, 33);
-}
-.bordesredondeados{
-    border-radius: 10px;
-}
+.div {
+  margin: 5px;
+  padding: 5px;
+  height: 5px; }
 
+.main {
+  margin-bottom: 50px;
+  font-size: large; }
+
+.main__texto {
+  color: ivory; }
+
+.fondo {
+  background-color: #a84521;
+  height: 100px; }
+
+.boton {
+  width: 100px;
+  height: 30px;
+  padding: 5px;
+  text-align: center; }
+
+.color {
+  color: ivory; }
+
+.bordesredondeados {
+  border-radius: 10px; }
+
+.servicios {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.nuestros {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.contactanos {
+  margin-top: 50px;
+  margin-bottom: 50px; }
 
 /*.Pie.*/
-footer {
-    text-align: right;
-}
+.footer {
+  text-align: right; }
 
+.footer__logos {
+  border-radius: 10px; }
 
 /*.Servicios.*/
 table {
-    margin: auto;
-}
-
-
+  margin: auto; }
 
 /*.Estilos FlexBox.*/
-.menu-flex{
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: stretch;
-}
+.menu-flex {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: stretch; }
 
 /*.Contactanos.*/
 form {
-    margin: auto;
-    padding-left: 400px;
-    padding-right: 400px;
-    text-align: left;
-}
-
+  margin: auto;
+  padding-left: 400px;
+  padding-right: 400px;
+  text-align: left; }
 
 /*.NuestrosClientes.*/
 .grilla {
-    display: grid;
-    grid-template-areas: 
-    "franklin guiri"
-    "sur emilia"
-    "pie pie";
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 400px 400px 50px;
-    
-}
+  display: grid;
+  grid-template-areas: "franklin guiri" "sur emilia" "pie pie";
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 400px 400px 50px; }
+
 .franklin {
-    grid-area: franklin;
-}
+  grid-area: franklin; }
+
 .guiri {
-    grid-area: guiri;
-}
+  grid-area: guiri; }
+
 .sur {
-    grid-area: sur;
-}
+  grid-area: sur; }
+
 .emilia {
-    grid-area: emilia;
-}
+  grid-area: emilia; }
+
 .pie {
-    grid-area: pie;
-}
+  grid-area: pie; }
